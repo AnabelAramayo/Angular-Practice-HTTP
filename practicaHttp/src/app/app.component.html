@@ -1,0 +1,6 @@
+<h1>Practica Http</h1>
+<button (click)="getPosts()"> Boton</button>
+<div *ngFor = "let post of posts | async">
+{{post |json}}
+
+</div>
